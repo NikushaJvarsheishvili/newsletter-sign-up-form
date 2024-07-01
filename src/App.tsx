@@ -32,7 +32,7 @@ function App() {
       {isVisable ? (
         <Container isVisable={isVisable}>
           <img src={successIcon} alt="success-icon" />
-          <div className="flex flex-col gap-5 border">
+          <div className="flex flex-col gap-5">
             <h2 className="text-5xl font-bold text-customSlateGrey">
               Thanks for subscribing!
             </h2>
